@@ -1,0 +1,45 @@
+#conteneur
+{display: flex;}
+
+.jaune
+{background-color:#FFC107;
+flex:1; text-align: center;}
+
+.blanc
+{background-color: #ffffff;
+flex:2; text-align: center;
+padding-left: 30px;
+text-align: left;}
+
+@font-face
+{font-family: 'OpenSans-Regular';src: url(OpenSans-Regular.ttf);
+font-family: 'Roboto-Regular'; src:url(Roboto-Regular.ttf);
+font-family: 'Roboto-Thin'; src:url(Roboto-Thin.ttf)}
+
+.titre
+{text-align: left;}
+
+.prenom
+{color:#FFC107}
+
+body
+{font-family:'Roboto-Thin','Roboto-Regular','OpenSans-Regular',Arial, Helvetica, sans-serif}
+
+img
+{width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 30px;
+}
+.sous-titre
+{color:#FFC107;
+background-color: #424242;margin-left: ;
+}
+p
+{margin:20px}
+h1
+{margin-top: 50px;
+margin-bottom: 0px;}
+
+.poste
+{margin-top: 0px;}
