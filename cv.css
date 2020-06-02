@@ -1,48 +1,53 @@
-@font-face
-{font-family: 'OpenSans-Regular';src: url('OpenSans-Regular.ttf')}
 
 #conteneur
 {display: flex;}
 
 .jaune
-{background-color:#FFC107;
-flex:1; text-align: center;width: 30%;}
+{background-color:#FECA07;
+flex:1; text-align: center;width: 30%;margin:0px}
+
+.adresse, .tel , .email, .site 
+{margin-bottom: 0.8rem;}
 
 .blanc
 {background-color: #ffffff;
 flex:2; text-align: center;
-padding: 50px;
+padding: 60px;padding-top: 120px;
 text-align: left;}
 
 .titre
 {text-align: left;
-padding-bottom: 50px;}
+padding-bottom: 80px;}
 
 .prenom
-{color:#FFC107; font-size: 1.5em; font-weight: bold;}
+{color:#FECA07; font-size: 4rem; font-weight: 500;}
 
 .nom
-{font-size: 1.5em; font-weight: 100;}
+{font-size: 4rem; font-weight: 100;}
 
 body
-{font-size:10pt ; margin:0px; font-family: 'OpenSans-Regular';} 
+{font: size 10px ; margin:0px; font-family: 'Open Sans', sans-serif; letter-spacing: -0.05rem;} 
 
 img
-{width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    margin-top: 30px;
+{width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    margin-top: 70px;margin-bottom: 15px; border: solid 4px rgba(153, 134, 81, .1);
 }
+
+.apropos
+{font-weight: 400;}
+
 .sous-titre
-{color:#FFC107;
-background-color: #424242 ;
+{color:#FECA07;
+background-color: #424242 ; padding-top: 7px; padding-bottom: 7px; font-size: 1.6rem; font-weight: 600;
 }
 
 .soustitre
-{border-bottom: solid; border-color: #FFC107;}
+{border-bottom: solid; border-color: #FECA07;display: flex; font-weight: 600; font-size: 1.2rem;}
 
 p
-{margin:0px; text-align: justify;}
+{margin:0px; text-align: justify; margin-bottom: 0.5rem;}
 
 h1
 {margin: 0px;}
@@ -53,42 +58,54 @@ h3
 h4{margin: 0px;}
 
 .poste
-{margin: 0px ; opacity: 60%;}
+{margin: 0px ; opacity: 70%; font-size: 1.7rem;}
 
 .formation, .experience, .reco
 {justify-content: space-around; }
 
-.gras
-{font-weight: bold;}
 .description
-{display: flex; justify-content: center; flex-direction: column; width: 70%;}
+{display: flex; justify-content: center; flex-direction: column; width: 70%; font-weight: 400;margin-top: 0.5rem;}
 
 .anneelieu
-{margin: 0px; display:flex; font-weight: bold;}
+{ display:flex; font-weight: bold; opacity: 0.8;width: 35%;}
 
 .contact
 {justify-content: left}
 
-.far, .fas
-{color:#FFC107; font-size: 10pt ;}
+.far
+{color:#FECA07 ;font-size: 1rem;}
+
+.fas
+{color:#FECA07 ;font-size: 0.7rem;}
+
 
 .reco
-{display: flex; justify-content: left; line-height: 2em; margin-top: 30px;}
+{display: flex; justify-content: left; margin-top: 30px;}
 
 .aldescription
-{display:flex; justify-content: space-between; margin-bottom: 50px; margin-top: 30px;}
+{display:flex; justify-content: space-between; margin-bottom: 20px; margin-top: 35px;}
 
 .iconeloisir
-{border: solid;border-radius: 50%; padding:15px;}
+{border: solid;border-radius: 50%; padding:10px;opacity: 70%; font-size: 15px ;}
 
 .rubrique
-{padding: 30px;}
+{padding: 50px; font-weight: 700; padding-top: 15px;padding-bottom: 25px; color: #404040;opacity: 0.9;}
 
 .bordurejaune
-{width: 7% ;border-top: solid;border-color:#FFC107;}
+{width: 11% ;border-top: solid;border-color:#FECA07;}
 
 .loisirs
-{margin-top: 400px;}
+{margin-top: 350px;margin-bottom: 0px;}
 
 .icone-point
 {margin-right: 20px;}
+
+.ecole
+{margin-bottom: 0.5rem; opacity: 0.8; font-weight: 700;}
+
+.directeur, .telephone
+{margin-bottom: 0.15rem;}
+
+.gras
+{font-weight: bold; opacity: 0.9;}
+
