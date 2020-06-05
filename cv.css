@@ -50,6 +50,9 @@ background-color: #404040 ; padding-top: 7px; padding-bottom: 7px; font-size: 1.
 .soustitre
 {display: flex; font-weight: 600; font-size: 1.2rem; margin-top: 10px;margin-bottom:-12px}
 
+.titrexp, .titrereco, .titreforma
+{padding-left: 35px;}
+
 p
 {margin:0px; text-align: justify; margin-bottom: 0.5rem;}
 
@@ -114,3 +117,6 @@ h4{margin: 0px;}
 
 .gras
 {font-weight: bold; opacity: 0.9;}
+
+.annee 
+{margin-bottom: -5px;}
