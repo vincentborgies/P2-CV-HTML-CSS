@@ -2,15 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CV</title>
         <link href="cv.css" rel="stylesheet" >
         <link href="fontawesome/css/all.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="petite_resolution.css" type="text/css" />
     </head>
 
     <body>
         <div id="conteneur">
             <div class="jaune">
+                <div class="titreresponsive">
+                    <h1 class="prenomnom"><span class="prenom">VINCENT</span><span class="nom"> BORGIES</span></h1>
+                    <h2 class="poste">Développeur web freelance</h2>
+                    <div class="borduretitre"></div>
+                </div>
                 <div class="photo">
                     <a href="moi.jpg"><img src="moi-mini.jpg" height=200 alt="photo cv" title="cliquez pour agrandir"/></a>
                 </div>
@@ -19,9 +26,9 @@
                     <div class=rubrique>
                         <p class="adresse">Adresse<br>Bordeaux, France</p>
                         <p class="tel">Telephone<br>06 89 25 02 49</p>
-                        <p class="email">Email<br><a href="mailto:vincentborgies1@gmail.com" class="com">vincentborgies1@gmail.com</a></p>
+                        <p class="email">Email<br><a href="mailto:vincentborgies1@gmail.com" class="com">vincentborgies1@gmail.com</a></p>    
                         <p class="site">Site web<br>www.vincentborgies.com</p>
-                        <p>Skype<br>@vincent_borgies</p>
+                        <p>Skype<br>@vincent_borgies</p> 
                     </div>
                 </div>
                 <div class="apropos">
@@ -34,9 +41,9 @@
                     <div class="loisirs">
                         <h2 class="sous-titre">LOISIRS</h2>
                         <div class="rubrique" style="display: flex; justify-content: space-around;">
-                            <div class="iconeloisir"><i class="fas fa-music" style="color: black; font-size: 3em"></i></div>
-                            <div class="iconeloisir"><i class="fas fa-globe-europe" style="color: black; font-size: 3em"></i></div>
-                            <div class="iconeloisir"><i class="fas fa-futbol"style="color: black; font-size: 3em"></i></div>
+                            <div><i class="fas fa-music"></i></div>
+                            <div><i class="fas fa-globe-europe"></i></div>
+                            <div><i class="fas fa-futbol"></i></div>
                         </div>   
                     </div>    
             </div>    
@@ -45,12 +52,13 @@
                 <div class="titre">
                     <h1 class="prenomnom"><span class="prenom">VINCENT</span><span class="nom"> BORGIES</span></h1>
                     <h2 class="poste">Développeur web freelance</h2>
-                    <div class="bordurejaune"></div>
+                    <div class="borduretitre"></div>
                 </div>
                 <div class="soustitre">
-                    <i class="fas fa-graduation-cap" style="font-size: 35px;padding-top: 30px;"></i>  
+                    <i class="fas fa-graduation-cap"></i>  
                     <h2 style="padding-left: 35px;">FORMATION</h2>
                 </div>    
+                <div class="bordurejaune"></div>
                 <div class="formation">
                     <div>
                         <div class="aldescription">
@@ -75,10 +83,11 @@
                 </div>
                 
                 <div class="soustitre">
-                    <i class="fas fa-briefcase" style="font-size: 35px; padding-top: 30px;"></i>
+                    <i class="fas fa-briefcase"></i>
                     <h2 style="padding-left: 35px;">EXPERIENCE PROFESSIONNELLE</h2>
-                </div>    
-                    <div class="experience">
+                </div>
+                <div class="bordurejaune"></div>    
+                <div class="experience">
                         <div class="aldescription">
                             <div class="anneelieu"><span class="icone-point"><i class="far fa-dot-circle"></i></span><span>Juin 2017 - Poste actuel<br>Paris</span></div>
                             <div class="description">
@@ -108,9 +117,10 @@
                     </div> 
                 
                 <div class="soustitre">
-                    <i class="fas fa-pen" style="font-size: 35px; padding-top: 30px;"></i> 
+                    <i class="fas fa-pen"></i> 
                     <h2 style="padding-left: 35px ;">RECOMMANDATIONS</h2>
                 </div>    
+                <div class="bordurejaune"></div>
                     <div class="reco">
                         <div class="description">
                             <div class="gras">
