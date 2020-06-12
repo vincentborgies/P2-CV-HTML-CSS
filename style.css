@@ -1,0 +1,199 @@
+.annee 
+{margin-bottom: -5px}
+
+.adresse, .tel , .email, .site 
+{margin-bottom: 0.8rem}
+
+.aldescription
+{display:flex; 
+justify-content: space-between; 
+margin-bottom: 29px;
+font-weight: 300}
+
+.anneelieu
+{ display:flex; 
+font-weight: bold; 
+opacity: 0.8;
+width: 35%}
+
+.apropos
+{font-weight: 300}
+
+.blanc
+{flex:1.82 ;
+background-color: #ffffff; 
+text-align: center;
+padding: 60px;
+padding-top: 100px;
+padding-right: 50px;
+text-align: left}
+
+body
+{font-size:16px;
+margin:0px; 
+font-family: 'Open Sans', 'sans-serif'; 
+letter-spacing: -0.05rem; 
+font-weight: 400} 
+
+.borduretitre
+{border-top: solid;
+border-color:#FECA07; 
+margin-bottom:35px ;
+padding:0px; 
+width:11%}
+
+.bordurejaune
+{width: 100% ;
+border-top: solid;
+border-color:#FECA07; 
+margin-bottom:35px ;
+padding:0px}
+
+.contact
+{justify-content: left; 
+font-weight: 700; 
+margin-bottom: -10px}
+
+#conteneur
+{display: flex}
+
+.directeur, .telephone
+{margin-bottom:0.1rem}
+
+.description
+{display: flex; 
+justify-content: center; 
+flex-direction: column; 
+width: 70%; 
+font-weight: 400;
+margin-top: 0.5rem}
+
+.ecole
+{margin-bottom: 0.5rem; 
+opacity: 0.8; 
+font-weight: 700}
+
+.experience
+{justify-content: space-around;}
+
+.far
+{color:#FECA07 ;
+font-size: 1rem}
+
+.fas
+{color:#FECA07 ;
+font-size: 0.7rem}
+
+.fa-pen, .fa-graduation-cap, .fa-briefcase
+{font-size: 35px; 
+padding-top: 30px}
+
+.fa-music, .fa-globe-europe, .fa-futbol
+{border: solid;
+border-radius: 50%; 
+padding:10px;
+opacity: 90%; 
+font-size: 3rem ; 
+color:#404040}
+
+.formation
+{justify-content: space-around}
+
+.gras
+{font-weight: bold; 
+opacity: 0.9}
+
+h1
+{margin: 0px}
+
+h3
+{margin: 0px;}
+
+h4{margin: 0px}
+
+.iconesloisirs
+{display: flex; 
+justify-content: space-around;
+padding: 0px 45px 0px 45px}
+
+.icone-point
+{margin-right: 20px}
+
+img
+{width: 220px;
+height: 220px;
+border-radius: 110px;
+margin-top: 60px;
+margin-bottom: 10px; 
+border: solid 4px rgba(153, 134, 81, .1)}
+
+.jaune
+{flex:1;
+background-color:#FECA07; 
+text-align: center;
+margin:0px}
+
+.loisirs
+{margin-top: 380px;
+margin-bottom: 25px;}
+
+.nom
+{font-size: 4rem; 
+font-weight: 100}
+
+p
+{margin:0px; 
+text-align: justify; 
+margin-bottom: 0.5rem}
+
+.poste
+{margin: 0px ; 
+opacity: 70%; 
+font-size: 1.7rem}
+
+.prenom
+{color:#FECA07; 
+font-size: 4rem; 
+font-weight: 500}
+
+.reco
+{display: flex; 
+justify-content: left; 
+margin-top: -10px;
+justify-content: space-around}
+
+.rubrique
+{padding:5px 45px 30px 45px; 
+color: #404040;
+opacity: 0.9; 
+font-weight: 600}
+
+.sous-titre
+{color:#FECA07;
+background-color: #404040 ; 
+padding-top: 7px; 
+padding-bottom: 7px; 
+font-size: 1.8rem; 
+font-weight: 600}
+
+.soustitre
+{display: flex; 
+font-weight: 600; 
+font-size: 1.2rem; 
+margin-top: 10px;
+margin-bottom:-12px}
+
+.titrexp, .titrereco, .titreforma
+{padding-left: 35px}
+
+.titre
+{text-align: left;
+padding-bottom: 40px}
+
+.titreresponsive
+{display:none}
+
+
+
+
+
