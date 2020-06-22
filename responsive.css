@@ -97,6 +97,10 @@ p {
     flex-direction: column
 }
 
+.recodescription {
+    flex-direction: column;
+}
+
 .sous-titre {
     justify-content: center;
     font-size: 1.5rem;

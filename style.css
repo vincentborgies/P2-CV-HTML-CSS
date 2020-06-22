@@ -1,199 +1,246 @@
-.annee 
-{margin-bottom: -5px}
+.annee {
+    margin-bottom: -5px
+}
 
-.adresse, .tel , .email, .site 
-{margin-bottom: 0.8rem}
+.adresse, .tel, .email, .site {
+    margin-bottom: 0.8rem
+}
 
-.aldescription
-{display:flex; 
-justify-content: space-between; 
-margin-bottom: 29px;
-font-weight: 300}
+.aldescription {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+    font-weight: 300
+}
 
-.anneelieu
-{ display:flex; 
-font-weight: bold; 
-opacity: 0.8;
-width: 35%}
+.anneelieu {
+    display: flex;
+    font-weight: bold;
+    opacity: 0.8;
+    width: 35%
+}
 
-.apropos
-{font-weight: 300}
+.apropos {
+    font-weight: 300
+}
 
-.blanc
-{flex:1.82 ;
-background-color: #ffffff; 
-text-align: center;
-padding: 60px;
-padding-top: 100px;
-padding-right: 50px;
-text-align: left}
+.blanc {
+    flex: 1.82;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px;
+    padding-top: 100px;
+    padding-right: 50px;
+    text-align: left
+}
 
-body
-{font-size:16px;
-margin:0px; 
-font-family: 'Open Sans', 'sans-serif'; 
-letter-spacing: -0.05rem; 
-font-weight: 400} 
+body {
+    font-size: 16px;
+    margin: 0px;
+    font-family: 'Open Sans', 'sans-serif';
+    letter-spacing: -0.05rem;
+    font-weight: 400
+}
 
-.borduretitre
-{border-top: solid;
-border-color:#FECA07; 
-margin-bottom:35px ;
-padding:0px; 
-width:11%}
+.borduretitre {
+    border: none;
+    border-top: solid;
+    border-color: #FECA07;
+    margin-bottom: 35px;
+    padding: 0px;
+    width: 11%
+}
 
-.bordurejaune
-{width: 100% ;
-border-top: solid;
-border-color:#FECA07; 
-margin-bottom:35px ;
-padding:0px}
+.bordurejaune {
+    width: 100%;
+    border: none;
+    border-top: solid;
+    border-color: #FECA07;
+    margin-bottom: 35px;
+    padding: 0px
+}
 
-.contact
-{justify-content: left; 
-font-weight: 700; 
-margin-bottom: -10px}
+.contact {
+    justify-content: left;
+    font-weight: 700;
+    margin-bottom: -10px
+}
 
-#conteneur
-{display: flex}
+#conteneur {
+    display: flex
+}
 
-.directeur, .telephone
-{margin-bottom:0.1rem}
+.directeur, .telephone {
+    margin-bottom: 0.1rem
+}
 
-.description
-{display: flex; 
-justify-content: center; 
-flex-direction: column; 
-width: 70%; 
-font-weight: 400;
-margin-top: 0.5rem}
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    font-weight: 400;
+    margin-top: 0.5rem
+}
 
-.ecole
-{margin-bottom: 0.5rem; 
-opacity: 0.8; 
-font-weight: 700}
+.ecole {
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+    font-weight: 700
+}
 
-.experience
-{justify-content: space-around;}
+.experience {
+    justify-content: space-around;
+}
 
-.far
-{color:#FECA07 ;
-font-size: 1rem}
+.far {
+    color: #FECA07;
+    font-size: 1rem
+}
 
-.fas
-{color:#FECA07 ;
-font-size: 0.7rem}
+.fas {
+    color: #FECA07;
+    font-size: 0.7rem
+}
 
-.fa-pen, .fa-graduation-cap, .fa-briefcase
-{font-size: 35px; 
-padding-top: 30px}
+.fa-pen, .fa-graduation-cap, .fa-briefcase {
+    font-size: 35px;
+    padding-top: 30px
+}
 
-.fa-music, .fa-globe-europe, .fa-futbol
-{border: solid;
-border-radius: 50%; 
-padding:10px;
-opacity: 90%; 
-font-size: 3rem ; 
-color:#404040}
+.fa-music, .fa-globe-europe, .fa-futbol {
+    border: solid;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 90%;
+    font-size: 3rem;
+    color: #404040
+}
 
-.formation
-{justify-content: space-around}
+figure {
+    margin-top: 0px;
+}
 
-.gras
-{font-weight: bold; 
-opacity: 0.9}
+.formation {
+    justify-content: space-around
+}
 
-h1
-{margin: 0px}
+.gras {
+    font-weight: bold;
+    opacity: 0.9
+}
 
-h3
-{margin: 0px;}
+h1 {
+    margin: 0px
+}
 
-h4{margin: 0px}
+h3 {
+    margin: 0px;
+}
 
-.iconesloisirs
-{display: flex; 
-justify-content: space-around;
-padding: 0px 45px 0px 45px}
+h4 {
+    margin: 0px
+}
 
-.icone-point
-{margin-right: 20px}
+.iconesloisirs {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 45px 0px 45px
+}
 
-img
-{width: 220px;
-height: 220px;
-border-radius: 110px;
-margin-top: 60px;
-margin-bottom: 10px; 
-border: solid 4px rgba(153, 134, 81, .1)}
+.icone-point {
+    margin-right: 20px
+}
 
-.jaune
-{flex:1;
-background-color:#FECA07; 
-text-align: center;
-margin:0px}
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border: solid 4px rgba(153, 134, 81, .1)
+}
 
-.loisirs
-{margin-top: 410px;
-margin-bottom: 25px;}
+.jaune {
+    flex: 1;
+    background-color: #FECA07;
+    text-align: center;
+    margin: 0px
+}
 
-.nom
-{font-size: 4rem; 
-font-weight: 100}
+.loisirs {
+    margin-top: 420px;
+    margin-bottom: 25px;
+}
 
-p
-{margin:0px; 
-text-align: justify; 
-margin-bottom: 0.5rem}
+.nom {
+    font-size: 4rem;
+    font-weight: 100
+}
 
-.poste
-{margin: 0px ; 
-opacity: 70%; 
-font-size: 1.7rem}
+p {
+    margin: 0px;
+    text-align: justify;
+    margin-bottom: 0.5rem
+}
 
-.prenom
-{color:#FECA07; 
-font-size: 4rem; 
-font-weight: 500}
+.poste {
+    margin: 0px;
+    opacity: 70%;
+    font-size: 1.7rem
+}
 
-.reco
-{display: flex; 
-justify-content: left; 
-margin-top: -10px;
-justify-content: space-around}
+.prenom {
+    color: #FECA07;
+    font-size: 4rem;
+    font-weight: 500
+}
 
-.rubrique
-{padding:5px 45px 30px 45px; 
-color: #404040;
-opacity: 0.9; 
-font-weight: 600}
+.reco {
+    justify-content: left;
+    justify-content: space-around
+}
 
-.sous-titre
-{color:#FECA07;
-background-color: #404040 ; 
-padding-top: 7px; 
-padding-bottom: 7px; 
-font-size: 1.8rem; 
-font-weight: 600}
+.recodescription {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+}
 
-.soustitre
-{display: flex; 
-font-weight: 600; 
-font-size: 1.2rem; 
-margin-top: 10px;
-margin-bottom:-12px}
+.rubrique {
+    padding: 5px 45px 30px 45px;
+    color: #404040;
+    opacity: 0.9;
+    font-weight: 600;
+    margin-bottom: -10px
+}
 
-.titrexp, .titrereco, .titreforma
-{padding-left: 35px}
+.sous-titre {
+    color: #FECA07;
+    background-color: #404040;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 1.8rem;
+    font-weight: 600
+}
 
-.titre
-{text-align: left;
-padding-bottom: 40px}
+.soustitre {
+    display: flex;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: -20px
+}
 
-.titreresponsive
-{display:none}
+.titrexp, .titrereco, .titreforma {
+    padding-left: 35px
+}
 
+.titre {
+    text-align: left;
+    padding-bottom: 30px
+}
 
-
-
-
+.titreresponsive {
+    display: none
+}
