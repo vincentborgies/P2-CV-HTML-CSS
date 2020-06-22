@@ -229,7 +229,7 @@ p {
     font-weight: 600;
     font-size: 1.2rem;
     margin-top: 10px;
-    margin-bottom: -20px
+    margin-bottom: -10px
 }
 
 .titrexp, .titrereco, .titreforma {
@@ -238,7 +238,7 @@ p {
 
 .titre {
     text-align: left;
-    padding-bottom: 30px
+    padding-bottom: 32px
 }
 
 .titreresponsive {
